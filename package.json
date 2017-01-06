@@ -9,11 +9,12 @@
   "author": "Jared Tong <hello@jaredtong.com>",
   "license": "ISC",
   "devDependencies": {
+    "git-scripts": "^0.2.1",
     "surge": "^0.18.0"
   },
   "git": {
     "scripts": {
-      "pre-push": "./node_modules/.bin/surge --project ./public --domain tongrhj-js30.surge.sh"
+      "pre-push": "./node_modules/.bin/surge --project . --domain tongrhj-js30.surge.sh"
     }
   }
 }

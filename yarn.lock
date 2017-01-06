@@ -65,6 +65,10 @@ commander@1.1.x:
   dependencies:
     keypress "0.1.x"
 
+commander@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.6.0.tgz#9df7e52fb2a0cb0fb89058ee80c3104225f37e1d"
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -142,6 +146,12 @@ fstream@^1.0.0:
     inherits "~2.0.0"
     mkdirp ">=0.5 0"
     rimraf "2"
+
+git-scripts@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/git-scripts/-/git-scripts-0.2.1.tgz#a45cb72dfa4e1208de5d9f674c0560c52da331d7"
+  dependencies:
+    commander "2.6.0"
 
 glob@^7.0.5:
   version "7.1.1"
